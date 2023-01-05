@@ -11,6 +11,7 @@ After installation, you have a small program called <code>zrect</code>, to see i
 
   Options:
     -l, --lod TEXT          Specify the LoD to correct.  [default: 2.2]
+    
     -d, --differences PATH  Export the list of height differences.  [default:
                             heights.json]
 
