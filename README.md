@@ -15,7 +15,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 ```
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-    Correct the buildings height in a 3D city model [CityJSON] using
+    Correct the heights of building in a 3D city model [CityJSON] using
     ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
   Options:
