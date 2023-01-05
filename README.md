@@ -9,6 +9,10 @@ The second image shows the results of our automatic approach to correct building
 
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
+## Installation
+
+The easiest way to install <code>ZRect3D</code> on Windows is to use one of the binary package on the [Release page](). In case you can not or do not want to use the windows installer, you can also build everything from source.
+
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>. Use <code>zrect --help</code> to see the detailed help:
 
