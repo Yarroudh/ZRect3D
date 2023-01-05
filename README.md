@@ -61,6 +61,6 @@ Alternatively, any CityGML file can be automatically converted to CityJSON with 
 
 This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php).
 
-In case you have the need for professional support don't hesitate to contact me via <ayarroudh@uliege.be>
+For more detailed information please contact us via <ayarroudh@uliege.be>, we are pleased to send your the necessary information.
 
 <img src="https://user-images.githubusercontent.com/72500344/210864557-4078754f-86c1-4e7c-b291-73223bdf4e4d.png" alt="logo" width="200"/>
