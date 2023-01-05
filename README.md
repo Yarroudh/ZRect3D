@@ -5,7 +5,7 @@ The first image shows the results of 3D Reconstruction using [GeoFlow3D](https:/
 
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
 
-The second image shows the results of our automatic approach to correct buildings height using ground points from LiDAR data :
+The second image shows the results of our automatic approach to correct buildings height using ground points from LiDAR data. The correction is based on the neighborhood within the point cloud of the terrain surface of each building. The height on the ground is calculated by averaging the heights of all points in the neighborhood. The height difference is finally applied to correct the Z coordinate of the vertices.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
