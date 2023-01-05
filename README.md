@@ -1,4 +1,4 @@
-# Automatic correction of negative Height-above-ground in 3D Building Models
+# Automatic correction of buildings height in 3D City Models
 
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>. Use <code>zrect --help</code> to see the detailed help:
