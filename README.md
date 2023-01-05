@@ -1,11 +1,11 @@
-# Automatic correction of buildings height in 3D City Models
-Command-Line Interface (CLI) application to process and correct buildings height in CityJSON files using ground points from LiDAR data.
+# Automatic correction of building heights in 3D City Models
+Command-Line Interface (CLI) application to process and correct building heights in CityJSON files using ground points from LiDAR data.
 
 The first image shows the results of 3D Reconstruction using [GeoFlow3D](https://github.com/geoflow3d/geoflow-bundle), A tool for reconstructing 3D building models from point clouds, fully automated, with high-detail. Free and open-source. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. For aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
 
-The second image shows the results of our automatic approach to correct buildings height using ground points from LiDAR data. The correction is based on the neighborhood within the point cloud of the ground surface of each building. The height on the ground is calculated by averaging the heights of all points in the neighborhood. The height difference is finally applied to correct the Z-coordinate of the vertices.
+The second image shows the results of our automatic approach to correct building heights using ground points from LiDAR data. The correction is based on the neighborhood within the point cloud of the ground surface of each building. The height on the ground is calculated by averaging the heights of all points in the neighborhood. The height difference is finally applied to correct the Z-coordinate of the vertices.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
@@ -15,7 +15,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 ```
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-    Correct the heights of buildings in a 3D city model [CityJSON] using
+    Correct the buildings height in a 3D city model [CityJSON] using
     ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
   Options:
@@ -36,7 +36,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 
 <code>zrect buildings.city.json pointcloud.las</code>
 
-This corrects the height of buildings using the default configuration.
+This corrects the buildings height using the default configuration.
 
 ### Using Options
 
