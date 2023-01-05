@@ -3,11 +3,11 @@
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>, to see its possibilities:
 
-<code>zrect --help</code>
+  zrect --help</code>
 
-<code>Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]</code>
+  Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-<code>Correct the heights of buildings in a 3D city model [CityJSON] using ground points from LiDAR data [LAS/LAZ/PCD/PLY].</code>
+  Correct the heights of buildings in a 3D city model [CityJSON] using ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
   Options:
     -l, --lod TEXT          Specify the LoD to correct.  [default: 2.2]
