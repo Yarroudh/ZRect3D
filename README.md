@@ -1,8 +1,12 @@
 # Automatic correction of buildings height in 3D City Models
 Command-Line Interface (CLI) application to process and correct buildings height in CityJSON files using ground points from LiDAR data.
 
+The first image shows the results of 3D Reconstruction using [GeoFlow3D](https://github.com/geoflow3d/geoflow-bundle), A tool for reconstructing 3D building models from point clouds, fully automated, with high-detail. Free and open-source. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. For aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
+
+The second image shows the results of our automatic approach to correct buildings height using ground points from LiDAR data :
+
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
 ## Usage of the CLI
