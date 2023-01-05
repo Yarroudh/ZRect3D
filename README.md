@@ -3,7 +3,7 @@
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>, to see its possibilities:
 
-  ```
+```
   zrect --help
 
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
@@ -23,4 +23,5 @@ After installation, you have a small program called <code>zrect</code>, to see i
                             correction.  [default: 0.1]
 
     --help                  Show this message and exit.
-    ```
+```
+    
