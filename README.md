@@ -34,13 +34,17 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 
 ### Basic Usage
 
-<code>zrect buildings.city.json pointcloud.las</code>
+```
+  zrect buildings.city.json pointcloud.las
+```
 
 This corrects the buildings height using the default configuration. The output consists of two files, the first one is named <code>output.city.json</code> which contains a copy of the input CityJSON file with corrected buildings height for LoD2.2 model, and the second one is <code>heights.json</code> which contains the height differences for all the buildings in the 3D city model.
 
 ### Using Options
 
-<code>zrect buildings.city.json pointcloud.las corrected_buildings.city.json -l '1.3' -k 5000 -t 0.05 -d height_list.json</code>
+```
+  zrect buildings.city.json pointcloud.las corrected_buildings.city.json -l '1.3' -k 5000 -t 0.05 -d height_list.json
+```
 
 In this example, we specify LoD1.3 with 5000 points from the LiDAR data to estimate height and a threshold of 0.05 meters to apply correction. The CityJSON file in output is named <code>corrected_buildings.city.json</code> and the list of height differences is <code>height_list.json</code>
 
