@@ -1,4 +1,6 @@
 # Automatic correction of buildings height in 3D City Models
+![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
+![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>. Use <code>zrect --help</code> to see the detailed help:
