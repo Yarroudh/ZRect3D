@@ -43,3 +43,18 @@ In this example, we specify LoD1.3 with 5000 points from the LiDAR data to estim
 ## Supported CityJSON versions
 
 The application expects that your file is using the latest version [CityJSON schema](https://www.cityjson.org/specs/1.1.3/). If your file uses an earlier version, you can upgrade it with the upgrade operator of [cjio, CityJSON/io](https://github.com/cityjson/cjio): <code>cjio old.json upgrade save newfile.city.json</code>
+
+Alternatively, any CityGML file can be automatically converted to CityJSON with the open-source project [citygml-tools](https://github.com/citygml4j/citygml-tools).
+
+## Requirements on the Point Cloud
+
+* Acquired through aerial scanning, either Lidar or Dense Image Matching. But Lidar is preferred, because it is often of higher quality.
+* Classified, with at least *ground* and *off-ground* classes.
+* Well aligned with the 3D Building Model.
+* Supported formats: <code>.LAS</code>, <code>.LAZ</code>, <code>.PCD</code> and <code>.PLY</code>.
+
+## About ZRect3D
+
+This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php).
+
+In case you have the need for professional support don't hesitate to contact me via <ayarroudh@uliege.be>
