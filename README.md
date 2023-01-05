@@ -1,4 +1,7 @@
 # Automatic correction of buildings height in 3D City Models
+Command-Line Interface (CLI) application to process and correct buildings height in CityJSON files using ground points from LiDAR data.
+
+
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
@@ -24,4 +27,15 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 
     --help                  Show this message and exit.
 ```
-    
+
+### Basic Usage
+
+<code>zrect buildings.city.json pointcloud.las</code>
+
+This corrects the height of buildings using the default configuration.
+
+### Using Options
+
+<code>zrect buildings.city.json pointcloud.las corrected_buildings.city.json -l '1.3' -k 5000 -t 0.05 -d height_list.json</code>
+
+In this example, we specify LoD1.3 with 5000 points from the LiDAR data to estimate height and a threshold of 0.05 meters to apply correction. The CityJSON file in output is named <code>corrected_buildings.city.json</code> and the list of height differences is <code>height_list.json</code>
