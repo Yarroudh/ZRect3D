@@ -1,11 +1,9 @@
 # Automatic correction of negative Height-above-ground in 3D Building Models
 
 ## Usage of the CLI
-After installation, you have a small program called <code>zrect</code>, to see its possibilities:
+After installation, you have a small program called <code>zrect</code>. Use <code>zrect --help</code> to see the detailed help:
 
 ```
-  zrect --help
-
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
     Correct the heights of buildings in a 3D city model [CityJSON] using
