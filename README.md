@@ -36,7 +36,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 
 <code>zrect buildings.city.json pointcloud.las</code>
 
-This corrects the buildings height using the default configuration.
+This corrects the buildings height using the default configuration. The output consists of two files, the first one is named <code>output.city.json</code> which contains a copy of the input CityJSON file with corrected buildings height for LoD2.2 model, and the second one is <code>heights.json</code> which contains the height differences for all the buildings in the 3D city model.
 
 ### Using Options
 
