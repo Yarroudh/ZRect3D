@@ -3,15 +3,16 @@
 ## Usage of the CLI
 After installation, you have a small program called <code>zrect</code>, to see its possibilities:
 
-  zrect --help</code>
+  ```
+  zrect --help
 
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-  Correct the heights of buildings in a 3D city model [CityJSON] using ground points from LiDAR data [LAS/LAZ/PCD/PLY].
+    Correct the heights of buildings in a 3D city model [CityJSON] using
+    ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
   Options:
     -l, --lod TEXT          Specify the LoD to correct.  [default: 2.2]
-    
     -d, --differences PATH  Export the list of height differences.  [default:
                             heights.json]
 
@@ -22,3 +23,4 @@ After installation, you have a small program called <code>zrect</code>, to see i
                             correction.  [default: 0.1]
 
     --help                  Show this message and exit.
+    ```
