@@ -1,11 +1,11 @@
-# Automatic correction of building heights in 3D City Models
-*Command-Line Interface (CLI) application to process and correct building heights in CityJSON files using ground points from LiDAR data.*
+# Automatic correction of building ground floor elevation in 3D City Models
+*Command-Line Interface (CLI) application to process and correct building ground floor elevation in CityJSON files using ground points from LiDAR data.*
 
 The first image shows the results of 3D Reconstruction using [GeoFlow3D](https://github.com/geoflow3d/geoflow-bundle), a tool for reconstructing 3D building models from point clouds, fully automated with high-detail. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. For aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
 
-The second image shows the results of our automatic approach to correct building heights using ground points from LiDAR data. For each building, the correction is based on K-nearest neighbors algorithm (KNN) to find the ground surface neighbors in the ground points of the LiDAR data. KDTree's structure is used for fast retrieval of nearest neighbors. The height on the ground is calculated by averaging the heights of these neighboring points. The height difference, which is the difference between the minimum Z-coordinate of the ground surface vertices and the calculated height on the ground, is finally applied to correct the Z-coordinate for all vertices of the ground surface.
+The second image shows the results of our automatic approach to correct building ground floor elevation using ground points from LiDAR data. For each building, the correction is based on K-nearest neighbors algorithm (KNN) to find the ground surface neighbors in the ground points of the LiDAR data. KDTree's structure is used for fast retrieval of nearest neighbors. The height on the ground is calculated by averaging the heights of these neighboring points. The height difference, which is the difference between the minimum Z-coordinate of the ground floor vertices and the calculated height on the ground, is finally applied to correct the Z-coordinate for all vertices of the ground surface.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857677-d50e6768-cb15-4640-bcd3-c1445b61b15a.png)
 
@@ -42,7 +42,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
   zrect buildings.city.json pointcloud.las
 ```
 
-This corrects the buildings height using the default configuration. The output consists of two files, the first one is named <code>output.city.json</code> which contains a copy of the input CityJSON file data with corrected heights for LoD2.2 building, and the second one is <code>heights.json</code> which contains the height differences for all the buildings in the 3D city model.
+This corrects the buildings ground floor elevation using the default configuration. The output consists of two files, the first one is named <code>output.city.json</code> which contains a copy of the input CityJSON file data with corrected heights for LoD2.2 building, and the second one is <code>heights.json</code> which contains the height differences for all the buildings in the 3D city model.
 
 ### Using Options
 
