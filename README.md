@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/72500344/210864557-4078754f-86c1-4e7c-b291-73223bdf4e4d.png" alt="logo" width="200"/>
 
-# Automatic correction of building ground floor elevation in 3D City Models
+# Automatic correction of buildings ground floor elevation in 3D City Models
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 *Command-Line Interface (CLI) application to process and correct buildings ground floor elevation in CityJSON files using ground points from LiDAR data.*
