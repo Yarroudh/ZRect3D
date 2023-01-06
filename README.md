@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/72500344/210864557-4078754f-86c1-4e7c-b291-73223bdf4e4d.png" alt="logo" width="200"/>
+
 # Automatic correction of building ground floor elevation in 3D City Models
 *Command-Line Interface (CLI) application to process and correct building ground floor elevation in CityJSON files using ground points from LiDAR data.*
 
@@ -70,5 +72,3 @@ Alternatively, any CityGML file can be automatically converted to CityJSON with 
 This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php).
 
 For more detailed information please contact us via <ayarroudh@uliege.be>, we are pleased to send you the necessary information.
-
-<img src="https://user-images.githubusercontent.com/72500344/210864557-4078754f-86c1-4e7c-b291-73223bdf4e4d.png" alt="logo" width="200"/>
