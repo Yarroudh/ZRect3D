@@ -56,6 +56,8 @@ This corrects the buildings ground floor elevation using the default configurati
 
 In this example, we correct the LoD1.3 buildings ground floor elevation using 1000 neighboring points from the LiDAR data to estimate height and a threshold of 0.05 meters to apply correction. The CityJSON file in output is named <code>corrected_buildings.city.json</code> and the list of height differences is <code>height_list.json</code>
 
+https://user-images.githubusercontent.com/72500344/211130831-46acb1a0-5ca7-45e3-b57e-2bd6d282551b.mp4
+
 ## Supported CityJSON versions
 
 The application expects that your file is using the latest version [CityJSON schema](https://www.cityjson.org/specs/1.1.3/). If your file uses an earlier version, you can upgrade it with the upgrade operator of [cjio, CityJSON/io](https://github.com/cityjson/cjio): <code>cjio old.json upgrade save newfile.city.json</code>
