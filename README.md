@@ -23,7 +23,7 @@ After installation, you have a small program called <code>zrect</code>. Use <cod
 ```
   Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-    Correct buildings ground floor elevation in a 3D city model [CityJSON] 
+    Correct the buildings ground floor elevation in a 3D city model [CityJSON]
     using ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
   Options:
