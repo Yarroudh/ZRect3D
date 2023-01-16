@@ -72,6 +72,4 @@ Alternatively, any CityGML file can be automatically converted to CityJSON with 
 
 ## About ZRect3D
 
-This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php).
-
-For more detailed information please contact us via <ayarroudh@uliege.be>, we are pleased to send you the necessary information.
+This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php). For more detailed information please contact us via <ayarroudh@uliege.be>, we are pleased to send you the necessary information.
