@@ -7,7 +7,7 @@
 
 *Command-Line Interface (CLI) application to process and correct buildings ground floor elevation in CityJSON files using ground points from LiDAR data.*
 
-The first image shows the results of 3D reconstruction of buildings using [GeoFlow3D](https://github.com/geoflow3d/geoflow-bundle), a tool for reconstructing 3D building models from point clouds, fully automated with high-detail. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. However, for aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
+The first image shows the results of 3D reconstruction of buildings using [GeoFlow](https://github.com/geoflow3d/geoflow-bundle), a tool for reconstructing 3D building models from point clouds, fully automated with high-detail. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. However, for aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
 
 ![image](https://user-images.githubusercontent.com/72500344/210857587-52af1135-eb92-4682-acd7-6499096a292f.png)
 
