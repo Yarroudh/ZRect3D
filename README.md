@@ -2,6 +2,9 @@
 
 # Automatic correction of buildings ground floor elevation in 3D City Models
 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Geomatics Unit of ULiege - Development](https://img.shields.io/badge/Geomatics_Unit_of_ULiege-Development-2ea44f)](http://geomatics.ulg.ac.be/)
+
 *Command-Line Interface (CLI) application to process and correct buildings ground floor elevation in CityJSON files using ground points from LiDAR data.*
 
 The first image shows the results of 3D reconstruction of buildings using [GeoFlow3D](https://github.com/geoflow3d/geoflow-bundle), a tool for reconstructing 3D building models from point clouds, fully automated with high-detail. The software requires that the point cloud includes some ground points around the building so that it can determine the ground floor elevation. However, for aerial point clouds, buildings surrounded by others may not meet this condition which may result in inaccurate height estimation above the ground.
