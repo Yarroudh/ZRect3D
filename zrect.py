@@ -1,3 +1,7 @@
+# Copyright (c) 2022-2023 - University of Liège
+# Author : Anass Yarroudh (ayarroudh@uliege.be), Geomatics Unit of ULiège
+# This file is distributed under the BSD-3 licence. See LICENSE file for complete text of the license.
+
 import click
 import time
 import json
