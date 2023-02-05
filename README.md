@@ -2,7 +2,7 @@
 
 # Automatic correction of buildings ground floor elevation in 3D City Models
 
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Yarroudh/ZRect3D/blob/main/LICENSE)
 [![Geomatics Unit of ULiege - Development](https://img.shields.io/badge/Geomatics_Unit_of_ULiege-Development-2ea44f)](http://geomatics.ulg.ac.be/)
 
 *Command-Line Interface (CLI) application to process and correct buildings ground floor elevation in CityJSON files using ground points from LiDAR data.*
