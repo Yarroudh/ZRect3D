@@ -23,29 +23,29 @@ The easiest way to install <code>ZRect3D</code> on Windows is to use the binary 
 After installation, you have a small program called <code>zrect</code>. Use <code>zrect --help</code> to see the detailed help:
 
 ```
-  Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
+Usage: zrect [OPTIONS] CITYJSON POINTCLOUD [OUTPUT]
 
-    Correct the buildings ground floor elevation in a 3D city model [CityJSON]
-    using ground points from LiDAR data [LAS/LAZ/PCD/PLY].
+  Correct the buildings ground floor elevation in a 3D city model [CityJSON]
+  using ground points from LiDAR data [LAS/LAZ/PCD/PLY].
 
-  Options:
-    -l, --lod TEXT          Specify the LoD to correct.  [default: 2.2]
-    -d, --differences PATH  Export the list of height differences.  [default:
-                            heights.json]
+Options:
+  -l, --lod TEXT          Specify the LoD to correct.  [default: 2.2]
+  -d, --differences PATH  Export the list of height differences.  [default:
+                          heights.json]
 
-    -k, --knn INTEGER       K nearest neighbors of the lowest vertex to estimate
-                            height.  [default: 2000]
+  -k, --knn INTEGER       K nearest neighbors of the lowest vertex to estimate
+                          height.  [default: 2000]
 
-    -t, --threshold FLOAT   Height difference threshold to perform the
-                            correction.  [default: 0.1]
+  -t, --threshold FLOAT   Height difference threshold to perform the
+                          correction.  [default: 0.1]
 
-    --help                  Show this message and exit.
+  --help                  Show this message and exit.
 ```
 
 ### Basic Usage
 
 ```
-  zrect buildings.city.json pointcloud.las
+zrect buildings.city.json pointcloud.las
 ```
 
 This corrects the buildings ground floor elevation using the default configuration. The output consists of two files: the first one is named <code>output.city.json</code> which contains a copy of the input CityJSON file data with corrected ground floor elevation for LoD2.2 buildings, and the second one is <code>heights.json</code> which contains the height differences for all the buildings in the 3D city model.
@@ -53,7 +53,7 @@ This corrects the buildings ground floor elevation using the default configurati
 ### Using Options
 
 ```
-  zrect buildings.city.json pointcloud.las corrected_buildings.city.json -l '1.3' -k 1000 -t 0.05 -d height_list.json
+zrect buildings.city.json pointcloud.las corrected_buildings.city.json -l '1.3' -k 1000 -t 0.05 -d height_list.json
 ```
 
 In this example, we correct the LoD1.3 buildings ground floor elevation using 1000 neighboring points from the LiDAR data to estimate height and a threshold of 0.05 meters to apply correction. The CityJSON file in output is named <code>corrected_buildings.city.json</code> and the list of height differences is <code>height_list.json</code>
