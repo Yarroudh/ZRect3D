@@ -70,6 +70,10 @@ Alternatively, any CityGML file can be automatically converted to CityJSON with 
 * Well aligned with the 3D Building Model.
 * Supported formats: <code>.LAS</code>, <code>.LAZ</code>, <code>.PCD</code> and <code>.PLY</code>.
 
+## License
+
+This software is under the BSD 3-Clause "New" or "Revised" license which is a permissive license that allows you almost unlimited freedom with the software so long as you include the BSD copyright and license notice in it. Please read the [LICENSE]() and the [COPYING]() files for more details.
+
 ## About ZRect3D
 
 This software was developped by Anass Yarroudh, a Research Engineer in the [Geomatics Unit of the University of Liege](http://geomatics.ulg.ac.be/fr/home.php). For more detailed information please contact us via <ayarroudh@uliege.be>, we are pleased to send you the necessary information.
